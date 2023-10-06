@@ -7,8 +7,9 @@
     width: 90%;
     height: 60vh;
     background-image: linear-
-    gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));<img src="../img/background-cover.png" alt="logo">;
+    gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));img src="../img/background-cover.png" alt="logo";
     background-size: cover;
+    transform: scale (1.5, .5);
     background-position: center;
  } 
  .navbar{
@@ -90,10 +91,4 @@ span{
    bottom: 0;
    z-index: -1;
    transition: 0.5s;
-}
-button: hover span{
-   width: 100%;
-}
-button:hover{
-   border:none;
 }
