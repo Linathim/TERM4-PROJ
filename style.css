@@ -1,4 +1,4 @@
-/* style.css */
+
 
 /* Reset some default margin and padding */
 body, h1, h2, p, ul {
@@ -98,6 +98,74 @@ button {
 button:hover {
    background-color: #555;
 }
+
+/* Panel Discussions Section Styles */
+#panel-discussions {
+   background-color: #f9f9f9;
+   padding: 20px 0;
+}
+
+#panel-discussions .container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+#panel-discussions h2 {
+   font-size: 24px;
+}
+
+.user-content {
+   margin-top: 20px;
+}
+
+.user-review {
+   margin-bottom: 20px;
+   border: 1px solid #ddd;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.user-review h3 {
+   font-size: 18px;
+}
+
+.user-submission {
+   margin-top: 20px;
+}
+
+.user-submission h3 {
+   font-size: 20px;
+}
+
+#user-form label {
+   display: block;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+#user-form input[type="text"],
+#user-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+#user-form button {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   margin-top: 10px;
+}
+
+#user-form button:hover {
+   background-color: #555;
 
 /* Footer styles */
 footer {
