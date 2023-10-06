@@ -5,9 +5,9 @@
 }
  .banner{
     width: 90%;
-    height: 100vh;
+    height: 60vh;
     background-image: linear-
-    gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/background-coverl.png");
+    gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));img src="../img/background-coverl.png" alt="logo">;
     background-size: cover;
     background-position: center;
  } 
@@ -69,7 +69,7 @@ button{
    width: 200px;
    padding: 15px 0;
    text-align:center
-   margin: 20px 10px;
+   margi n: 20px 10px;
    border-radius: 25px;
    font-weight: bold;
    border: 2px solid #009688;
